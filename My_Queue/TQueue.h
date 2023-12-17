@@ -50,6 +50,15 @@ bool operator==(const TQueue& s) const
 	}	
 	return true;
 }
+int Get_head()
+{
+	return start;
+}
+
+int Get_size()
+{
+	return size;
+}
 bool operator!=(const TQueue& s) const
 {
 	return !(*this == s);
