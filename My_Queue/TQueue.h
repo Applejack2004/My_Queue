@@ -210,7 +210,7 @@ inline void TLQueue<T>::ClearQueue()
 template<class T>
 inline void TLQueue<T>::output()
 {
-	if (empty())
+	if (empty())//feff
 	{
 		std::cout << "(empty)";
 	}
